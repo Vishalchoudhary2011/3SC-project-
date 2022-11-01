@@ -1,0 +1,698 @@
+{
+    "msg": "SUCCESS",
+    "data": [
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Ice Cream",
+            "key_attribute_2": "India",
+            "salesman": "a1",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "open"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "Neel",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 1,
+            "status": "open"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "Abhi",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 2,
+            "status": "reviewed"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "navin",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 4,
+            "status": "open"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "Abhi",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "reviewed"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "Abhi",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "open"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "navin",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "reviewed"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "Abhi",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "open"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "Abhi",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "open"
+        },
+        {
+            "forecast_header_id": 1,
+            "ForecastNumber": 10,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Chips",
+            "key_attribute_2": "USA",
+            "salesman": "navin",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "open"
+        },
+        {
+            "forecast_header_id": 2,
+            "ForecastNumber": 11,
+            "snop_id_fk": 1,
+            "variability": "Y",
+            "accuracy": "high",
+            "average_monthly_sales_volume": 100,
+            "average_monthly_sales_value": 120,
+            "last_month_actual_sales_volume": 20,
+            "last_month_actual_sales_value": 30,
+            "key_attribute_1": "Salt",
+            "key_attribute_2": "UAE",
+            "salesman": "Neel",
+            "segment_value": "A",
+            "forecast_detail": {
+                "operational": {
+                    "forecast_detail_id": [
+                        1,
+                        2,
+                        3
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        100,
+                        102,
+                        103
+                    ],
+                    "value": [
+                        18743,
+                        45255,
+                        543543
+                    ]
+                },
+                "statistical": {
+                    "forecast_detail_id": [
+                        7,
+                        8,
+                        9
+                    ],
+                    "period": [
+                        "M1",
+                        "M2",
+                        "M3"
+                    ],
+                    "volume": [
+                        140,
+                        150,
+                        160
+                    ],
+                    "value": [
+                        63547,
+                        758478,
+                        124524
+                    ]
+                }
+            },
+            "approved_till_level": 3,
+            "status": "open"
+        }
+    ]
+}

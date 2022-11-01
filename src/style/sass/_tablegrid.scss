@@ -1,0 +1,105 @@
+.tablegrid {
+
+    .tablegrid-status {
+        @include flexCenter;
+    }
+
+    .tablegrid-status-inprogress,
+    .tablegrid-status-executing,
+    .tablegrid-status-executed {
+        font-size: 12px;
+        line-height: 13px;
+        padding: 5px 5px;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        width: 6.25rem;
+        text-align: center;
+        border-radius: 5px;
+    }
+
+    .tablegrid-status-inprogress {
+        border: 2px solid $status-orange;
+        color: $status-orange;
+        background: #f7e3e3;
+
+    }
+
+    .tablegrid-status-executed {
+        border: 2px solid $status-green;
+        color: $status-green;
+        background: #edf9ed;
+    }
+
+    .tablegrid-status-executing {
+        border: 2px solid $status-blue;
+        color: $status-blue;
+        background: #e9f0f7;
+    }
+
+    .tablegrid-status-active,
+    .tablegrid-status-inactive {
+        border-radius: 0.625rem;
+        font-weight: 600;
+        font-size: 1rem;
+        line-height: 1.25rem;
+        padding: 15px 23px;
+        @include flexCenter;
+        width: 6.25rem;
+    }
+
+    .tablegrid-status-active {
+        border: 2px solid $status-green;
+        color: $status-green;
+    }
+
+    .tablegrid-status-inactive {
+        border: 2px solid $status-red;
+        color: $status-red;
+    }
+
+    .tablegrid-switch {
+        text-align: center;
+    }
+
+    .k-grid-pager {
+        font-size: 14px;
+        border-color: transparent;
+    }
+
+    .tablegrid-column-sort {
+        @include cursorPointer;
+    }
+
+    .k-grid-header .k-header {
+        overflow: visible;
+        white-space: normal;
+    }
+
+    .tablegrid-heading,
+    .k-header {
+        color: $white-color;
+        background: $primary;
+        border: 1px solid $border-color;
+        padding: 28px 21px;
+
+        .k-icon {
+            color: $white-color  !important;
+        }
+    }
+}
+
+.k-pager-numbers .k-link {
+    color: $primary-color  !important;
+
+    &:hover {
+        background-color: rgba(41, 38, 102, 0.08) !important;
+    }
+}
+
+.k-link.k-selected {
+    color: $primary-color  !important;
+    background-color: rgba(41, 38, 102, 0.2) !important;
+
+
+}

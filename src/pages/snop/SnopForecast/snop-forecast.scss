@@ -1,0 +1,25 @@
+@import '../../../style/sass/main.scss';
+
+.snop-forecast {
+    width: 100%;
+    padding: 1.125rem;
+    background: $white-color;
+
+    .snop-forecast-filters-container {
+        margin-top: 1.875rem;
+        margin-bottom: 1.25rem;
+        @include flexSpaceBetween;
+
+        .snop-forecast-filters {
+            flex: 0 0 90%;
+            border: 1px solid $border-color;
+            border-radius: 0.625rem;
+            @include flexSpaceBetween;
+            padding: 1rem 1.25rem;
+        }
+    }
+
+    .snop-forecast-map-container {
+        width: 100%;
+    }
+}

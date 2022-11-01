@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+
+.sidebar {
+  margin-top: 30px;
+}
+
+.sidebar #nested-list-subheader {
+  background-color: #fff0 !important;
+  text-align: center;
+  border-bottom: 1px solid#e9e8e8;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  position: unset;
+}
+
+.sidebar img {
+  margin-bottom: 30px;
+}
+
+.sidebar .css-10hburv-MuiTypography-root {
+  font-family: 'Poppins', sans-serif !important;
+  font-weight: 600;
+  color: #787777;
+}
+.sidebar .css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root.Mui-selected {
+  color: #292666;
+}
