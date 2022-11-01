@@ -1,0 +1,71 @@
+@import '../../style/sass/main.scss';
+
+.login {
+    background-image: url(../../assets/login-bg.jpg);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    .logo-container{
+        margin-top: 6.25rem;
+    }
+
+    .login-form {
+        width: 43.75rem;
+        display: flex;
+        flex-direction: column;
+        border: 5px solid rgba($color: #E5E8EC, $alpha: 1);
+        border-radius: 0.625rem;
+        padding: 2.5rem 3.92rem;
+
+        @media only screen and (max-width: 43.75rem) {
+            padding: 1rem 1rem;
+            width: 100%;
+        }
+    }
+
+    .login-input {
+        margin-bottom: 2rem;
+        font-family: "Montserrat";
+    }
+
+    .login-heading {
+        margin-bottom: 1rem;
+        color: $primary-color;
+        font-size: 2rem;
+        font-weight: 500;
+        font-family: "poppins";
+    }
+
+    .login-subheading {
+        margin-bottom: 3rem;
+        font-size: 1.25rem;
+        color: $text-color;
+        font-weight: 400;
+    }
+
+    .login-forgot {
+        width: 100%;
+        color: $primary-color;
+        padding: 1.45rem 0;
+        text-align: right;
+        font-weight: 500;
+
+        &:hover {
+            cursor: pointer;
+        }
+    }
+
+    .login-button {
+        background: $primary-color;
+        color: $white-color;
+        padding: 1.1rem 0;
+        font-size: 1.25rem;
+        font-weight: 700;
+        border-radius: 0.625rem;
+        border: none;
+        width: 100%;
+    }
+}

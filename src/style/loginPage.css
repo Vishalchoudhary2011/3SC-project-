@@ -1,0 +1,132 @@
+.login-container{
+    width: 100%;
+    height: 99.3vh;
+    display: flex;
+    justify-content: column;
+    /* align-items: center; */
+    justify-content: center;
+}
+
+.login-container .login{
+    flex: 1;
+}
+
+.login-left{
+    background-color: #eee;
+}
+.login-left img {
+    width: 100%;
+    height: 100%;
+}
+
+
+.login-right{
+    background-color: #fff;
+}
+
+
+.login-right .login-form{
+    width: 60%;
+    margin: 15% 20%;
+    border-radius: 2px;
+    box-shadow: 0 4px 8px 0 rgba(100, 100, 100, 0.2), 0 6px 20px 0 rgba(100, 100, 100, 0.19);
+}
+
+.login-form .form-header{
+    border-radius: 2px;
+    height: 15vh;
+    text-align: left;    
+    position: relative;
+    background-color: rgba(47, 128, 237, 0.5);
+}
+
+.form-header img{
+    position: absolute;
+    width: 125px;
+    /* height: 50px; */
+    top: 0;
+    right: 18px;
+}
+.login-form .form-header h3{
+    padding: 10px 15px 0;
+    margin: 0;
+    color: #fff;
+}
+
+.login-form .form-header h4{
+    padding: 0 15px 15px;
+    font-size: 12px;
+    margin: 0;
+    color: #fff;
+}
+
+
+.form-icon{
+    position: relative;
+}
+.form-icon img{
+    position: absolute;
+    top: 0;
+    width: 35px;
+    height: 35px;
+    padding: 5px;
+    left: 15px;
+    background-color: #fff;
+    top: -4vh;
+    border-radius: 50%;
+    }
+
+    .form-container{
+        padding: 45px 15px 20px;
+        text-align: left;
+    }
+
+    .form-container label{
+        font-size: 14px;
+        font-weight: 500;
+    }
+    .form-container .form-input{
+        width: 96%;
+    border: 1px solid #aea3a3;
+    border-radius: 3px;
+    font-size: 14px;
+    padding: 2%;
+    margin-top: 5px;
+    }
+
+    .form-container .form-checkbox{
+        margin-top: 15px;
+    }
+    .form-container span{
+        font-size: 13px;
+        font-weight: 500;
+    }
+
+    .primary-button{
+        width: 100%;
+        margin-top: 25px;
+        background-color: #292666;
+        color: #fff;
+        border: 1px solid #292666;
+        border-radius: 3px;
+        padding: 5px 0;
+        font-size: 16px;
+    }
+
+    .forgot-pass{
+        width: 100%;
+        /* margin-top: 30px; */
+        text-align: center;
+        margin-bottom: 25px;
+    }
+    .forgot-pass p{
+        font-size: 13px;
+
+    }
+
+
+    @media screen and (max-width: 768px){
+        .login-left{
+            display: none;
+        }
+    }

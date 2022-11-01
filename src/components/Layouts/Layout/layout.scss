@@ -1,0 +1,15 @@
+@import '../../../style/sass/main.scss';
+
+.layout {
+
+    .layout-content {
+        display: flex;
+
+        .layout-content-main {
+            flex: 1;
+            background: $grey-4;
+            padding: 1.125rem;
+            border: 1px solid $grey-3;
+        }
+    }
+}

@@ -1,0 +1,10 @@
+.dashboard{
+    height: 70vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dashboard h1 {
+    color: gray;
+}

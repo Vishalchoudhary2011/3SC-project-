@@ -1,0 +1,82 @@
+@import '../../../style/sass/main.scss';
+
+.sidebar {
+    padding: 2rem 1.25rem;
+    width: 18.125rem;
+    border: 1px solid $grey-3;
+    // height: 100vh;
+
+    .sidebar-user {
+        padding-left: 0.3125rem;
+        text-align: center;
+
+        p {
+            text-align: left;
+        }
+
+        .sidebar-user-image {
+            border-radius: 50%;
+            height: 7.5rem;
+            width: 7.5rem;
+            margin-bottom: 0.625rem;
+        }
+    }
+
+    .sidebar-menu {
+        width: 100%;
+
+        .sidebar-menu-header {
+            padding-left: 0.3125rem;
+            width: 100%;
+            font-weight: 700;
+            font-size: 1.125rem;
+            color: $primary-color;
+            text-transform: uppercase;
+            line-height: 3.75rem;
+            text-align: left;
+        }
+
+        .sidebar-menu-container {
+
+            .sidebar-menu-list {
+                list-style: none;
+                width: 100%;
+            }
+
+            .sidebar-menu-item.active{
+                border-radius: 0.3125rem;
+                background: $link-color;
+                color: $primary-color;
+            }
+
+            .sidebar-menu-item {
+                height: 3.125rem;
+                width: 100%;
+                display: flex;
+                align-items: center;
+                padding: 1rem;
+                color: $text-color-3;
+
+                &:hover{
+                    cursor: pointer;
+                }
+
+                .sidebar-menu-icon{
+                    width: 1.375rem;
+                    height: 1.375rem;
+                }
+
+                span{
+                    margin-left: 0.675rem;
+                    font-weight: 500;
+                    font-size: 1.125rem;
+                    line-height: 1.375rem;
+                }
+
+            }
+
+        }
+
+
+    }
+}
