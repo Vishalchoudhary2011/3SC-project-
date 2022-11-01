@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;600&display=swap');
+@import '../../../style/sass/main.scss';
+
+.paneldemand {
+  width: 100%;
+}
+.paneldemand .k-panelbar {
+  border: none;
+}
+.paneldemand .k-panelbar-item-text {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: capitalize;
+}
+.paneldemand .k-panelbar > .k-panelbar-header > .k-link {
+  background-color: $primary-color !important;
+  color: $white-color !important;
+  border-radius: 10px;
+}
+.paneldemand .k-panelbar > .k-panelbar-header > .k-link:hover {
+  background-color: $primary-color !important;
+  color: $white-color !important;
+}
+.paneldemand .k-panelbar > .k-panelbar-header > .k-link .k-icon {
+  color: #fff;
+}
+.paneldemand .custom-template {
+  margin-top: 15px;
+  overflow-x: auto;
+  margin-bottom: 10px;
+}
+.paneldemand .custom-template::-webkit-scrollbar {
+  height: 4px;
+  border-radius: 5px;
+}
+
+.paneldemand .custom-template::-webkit-scrollbar-track {
+  background: #fff; 
+}
+.paneldemand .custom-template::-webkit-scrollbar-thumb {
+  background: #888; 
+}
+
+
+.paneldemand .custom-template::-webkit-scrollbar-thumb:hover {
+  background: #555; 
+}
+.paneldemand .custom-template .forecastdemand {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+  padding: 10px;
+  width: 100%;
+  border-radius: 5px;
+}
+.paneldemand .custom-template tr th {
+  line-height: 2.25rem;
+  border-bottom: 1px solid $border-color;
+  border-right: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  padding-left: 20px;
+  font-size: 1rem;
+  // color: $grey-5;
+  font-weight: 600;
+  min-width: 110px;
+  background-color: $link-color-1;
+  // text-align: center;
+}
+.paneldemand .custom-template tr td {
+  line-height: 2.25rem;
+
+  font-size: 1rem;
+  font-weight: 700;
+  color: $grey-1;
+  border-right: 1px solid $border-color;
+  border-left: 1px solid $border-color;
+  border-top: 1px solid $border-color;
+  padding-left: 10px;
+  font-size: 0.75rem;
+  min-width: 110px;
+ 
+}
+.paneldemand .custom-template tr th:first-child {
+  border-left: none;
+  min-width: 200px;
+}
+.paneldemand .custom-template tr th:last-child {
+  border-right: none;
+}
+.paneldemand .custom-template tr td:first-child {
+  border-left: none;
+}
+.paneldemand .custom-template tr td:last-child {
+  border-right: none;
+}
+.paneldemand .custom-template tr td strong {
+  color: $primary-color;
+  font-weight: 600;
+  font-size: 0.825rem;
+}
+.demandcard {
+  border-radius: 10px;
+}
+.paneldemand .custom-template .adjust {
+  margin-top: 20px;
+  float: right;
+  background-color: $primary-color !important;
+  margin-bottom: 20px;
+  color: $white-color !important;
+}
+.demandbutton {
+  float: right;
+}
+.paneldemand .k-panelbar > .k-panelbar-header + .k-panelbar-header {
+  border-top-width: 0px;
+  margin-top: 4px;
+}
+.adjustbtn {
+  background-color: $white-color !important;
+  color: $primary-color !important;
+  margin-top: 9px !important;
+  margin-top: 11px !important;
+  margin-right: 6% !important;
+  position: absolute !important;
+  top: 0 !important;
+  right: 0 !important;
+  padding: 1px 6px !important;
+  font-weight: 600 !important;
+  font-size: 13px !important;
+  display: none !important;
+}
+
+//Demand SCSS

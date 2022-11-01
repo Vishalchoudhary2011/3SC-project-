@@ -1,0 +1,6 @@
+{
+  "globalHeaders": {
+    "Access-Control-Allow-Origin": "https://dev.3sc.ai",
+    "Access-Control-Allow-Methods": "POST, GET, OPTIONS"
+  }
+}

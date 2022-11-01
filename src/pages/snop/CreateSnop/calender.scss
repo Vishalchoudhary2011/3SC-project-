@@ -1,0 +1,19 @@
+.calenderhead{ 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 2rem;
+    text-align: center; color: #292666;
+    }
+.DateInput {
+    width: 219px !important;
+    }
+.datepickselect select{
+    border: none;
+    color: #292666; 
+    font-size: 13px;
+    font-weight: 800;
+}
+.CalendarMonth_caption {
+    padding-bottom: 52px !important;
+}

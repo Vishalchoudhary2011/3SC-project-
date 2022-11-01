@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;600&display=swap');
+@import '../../../style/sass/main.scss';
+
+.k-dialog-wrapper {
+  z-index: unset !important;
+}
+.dialogsnop .k-dialog {
+  width: 600px;
+  border-radius: 5px;
+}
+
+.Snopfield {
+  margin-top: 10px;
+}
+
+.dialogsnop .k-window-titlebar {
+  border-top-left-radius: 5px;
+  border-top-right-radius: 5px;
+  background: #fff;
+}
+.dialogsnop .k-window-title {
+  text-align: center;
+  color: #2a3f54;
+  font-size: 20px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 700;
+}
+.dialogsnop .k-button-flat {
+  border: 2px solid #acb2ba !important;
+  border-radius: 20px;
+}
+.dialogsnop .k-i-x::before {
+  color: #acb2ba;
+}
+.dialogsnop {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 20px;
+  letter-spacing: 0em;
+}
+
+.btnsnop .btncreate {
+  background: #292666;
+  padding: 10px 17px;
+  border-radius: 9px;
+  margin-right: 10px;
+  color: #fff;
+}
+
+.btnsnop .btncancel {
+  background: #fff;
+  padding: 10px 17px;
+  border: 1px solid #292666;
+
+  border-radius: 9px;
+  color: #292666;
+}
+
+.dialogsnop strong {
+  color: #292666;
+}
+
+@media (max-width: 767px) {
+  .dialogsnop .k-dialog {
+    width: 100%;
+    padding: 10px;
+  }
+}
+.sop {
+  color: #292666;
+}
+.btnsop {
+  float: right;
+}
+.btnop {
+  float: right;
+  background-color: #292666 !important;
+  color: #fff !important;
+}
+.btnsop button {
+  background-color: #fff;
+  border-color: #292666;
+  color: #292666;
+}
+.snoptabledata {
+  padding: 20px;
+}
+.k-grid thead {
+  background: #292666;
+  color: #fff;
+}
+.tablegrid .k-grid-header .k-header {
+  vertical-align: middle;
+  border-right: 1px solid $border-color;
+  }
+
+.tablegrid .k-cell-inner > .k-link{
+  justify-content: center;
+}
+
+.calenderedit .css-i4bv87-MuiSvgIcon-root {
+  color: #003980;
+}
+
+.tablegrid-status {
+  @include flexCenter;
+}
+
+
+.client-listing-toolbar-right {
+  .client-listing-toolbar-right-edit {
+      color: $primary-color;
+      background: $link-color-1;
+      padding: 0.8125rem 0.875rem;
+      border-radius: 0.4375rem;
+      @include flexCenter;
+      @include cursorPointer;
+      margin-right: 5px;
+  }
+
+  .client-listing-toolbar-right-edit.disabled {
+      color: $text-color-3;
+      background: $link-color-1;
+
+      &:hover {
+          cursor: not-allowed;
+      }
+  }
+}

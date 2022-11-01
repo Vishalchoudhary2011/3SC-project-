@@ -1,0 +1,327 @@
+{
+  "msg": "SUCCESS",
+  "data": {
+    "summary": {
+      "Statistical": [
+        {
+          "Period": "M1",
+          "Volume": "200",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M2",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M3",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M4",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M5",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M6",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M7",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M8",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M9",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M10",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M11",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+      ],
+      "Operational": [
+        {
+          "Period": "M1",
+          "Volume": "400",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M2",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M3",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M4",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M7",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M8",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M9",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M10",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M11",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+      ],
+      "Salesplan": [
+        {
+          "Period": "M1",
+          "Volume": "400",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M2",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M3",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M4",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M5",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M6",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M7",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M8",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M9",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+      ],
+      "Unconstrained": [
+        {
+          "Period": "M1",
+          "Volume": "400",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M2",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M3",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M4",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M5",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M6",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M7",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M8",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+        ,
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+        ,
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+        ,
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+        ,
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+        ,
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+        ,
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        },
+        
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+        ,
+        {
+          "Period": "M12",
+          "Volume": "100",
+          "Value": "34569.65"
+        }
+      ]
+    },
+    "details": [
+      {
+        "forecast_header_id": 1,
+        "ForecastNumber": 10,
+        "snop_id_fk": 1,
+        "variability": "Y",
+        "accuracy": "high",
+        "average_monthly_sales_volume": 100,
+        "average_monthly_sales_value": 120,
+        "last_month_actual_sales_volume": 20,
+        "last_month_actual_sales_value": 30,
+        "key_attribute_1": "edit",
+        "key_attribute_2": "edit",
+        "salesman": "a1",
+        "segment_value": "A",
+        "forecast_detail": {
+          "operational": {
+            "forecast_detail_id": [1, 2, 3],
+            "period": ["M1", "M2", "M3"],
+            "volume": [100, 102, 103],
+            "value": [18743, 45255, 543543]
+          },
+          "statistical": {
+            "forecast_detail_id": [7, 8, 9],
+            "period": ["M1", "M2", "M3"],
+            "volume": [140, 150, 160],
+            "value": [63547, 758478, 124524]
+          }
+        },
+        "approved_till_level": 3,
+        "status": "open"
+      },
+      {
+        "forecast_header_id": 2,
+        "ForecastNumber": 11,
+        "snop_id_fk": 1,
+        "variability": "Y",
+        "accuracy": "high",
+        "average_monthly_sales_volume": 100,
+        "average_monthly_sales_value": 120,
+        "last_month_actual_sales_volume": 20,
+        "last_month_actual_sales_value": 30,
+        "key_attribute_1": "edit",
+        "key_attribute_2": "edit",
+        "salesman": "a1",
+        "segment_value": "A",
+        "forecast_detail": {
+          "operational": {
+            "forecast_detail_id": [1, 2, 3],
+            "period": ["M1", "M2", "M3"],
+            "volume": [100, 102, 103],
+            "value": [18743, 45255, 543543]
+          },
+          "statistical": {
+            "forecast_detail_id": [7, 8, 9],
+            "period": ["M1", "M2", "M3"],
+            "volume": [140, 150, 160],
+            "value": [63547, 758478, 124524]
+          }
+        },
+        "approved_till_level": 3,
+        "status": "open"
+      }
+    ]
+  }
+}

@@ -1,0 +1,35 @@
+// App.scss
+$primary: #292666;
+$grid-bg: #fff;
+
+@import "~@progress/kendo-theme-default/dist/all.scss";
+
+.upload-button {
+  background-color: #03045e;
+  font-weight: bold;
+  font-size: 0.625rem;
+  border-radius: 0.375rem;
+  color: white;
+  margin-left: 5rem;
+  padding: 0.5rem;
+}
+
+.dl-link {
+  margin-top: 0.5625rem;
+  margin-bottom: 0.5625rem;
+  background-color: #f1f1f1;
+  font-weight: bold;
+  font-size: 0.625rem;
+  border-radius: 0.375rem;
+  color: #03045e;
+  margin-left: 0.875rem;
+  padding: 0.4375rem;
+}
+
+.close-btn {
+  font-size: 1.25rem;
+}
+
+.cls-span {
+  font-size: 3.125rem;
+}
